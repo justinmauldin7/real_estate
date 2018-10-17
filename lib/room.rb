@@ -1,5 +1,5 @@
 class Room
-  def initialize(room, length, width)
+  def initialize(room = [], length, width)
     @room = room
     @length = length
     @width = width
